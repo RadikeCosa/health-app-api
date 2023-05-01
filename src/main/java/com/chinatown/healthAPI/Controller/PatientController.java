@@ -24,13 +24,13 @@ public class PatientController {
         return "el paciente fue debidamente registrado";
     }
 
-    @DeleteMapping("/api/v1/patients")
+    @DeleteMapping("/api/v1/patients/{id}")
     public String deletePatient (@PathVariable Long id) {
         iPatientService.deletePatient(id);
         return "el paciente fue correctamente eliminado";
     }
 
-    @PutMapping("/api/v1/patients")
+    @PutMapping("/api/v1/patients/{id}")
     public Patient editPatient (@PathVariable Long id,
                                 @RequestParam ("name") String newName,
                                 @RequestParam("lastName") String newLastName,
