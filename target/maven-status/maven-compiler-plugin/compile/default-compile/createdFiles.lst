@@ -1,0 +1,7 @@
+com\chinatown\healthAPI\Repository\IPatientRepository.class
+com\chinatown\healthAPI\WebConfig.class
+com\chinatown\healthAPI\HealthApiApplication.class
+com\chinatown\healthAPI\Service\PatientService.class
+com\chinatown\healthAPI\Controller\PatientController.class
+com\chinatown\healthAPI\Model\Patient.class
+com\chinatown\healthAPI\Service\IPatientService.class
