@@ -20,13 +20,15 @@ public class Report {
     private String hour;
     private String hr;
     private String rr;
-    private String bp;
+    private String temp;
+    private String bpSystolic;
+    private String bpDiastolic;
     private String o2;
     private String glucose;
     private Boolean bowel;
     private Boolean urine;
     private String report;
     private String indications;
-    private String sign;
+    private String signature;
 
 }
