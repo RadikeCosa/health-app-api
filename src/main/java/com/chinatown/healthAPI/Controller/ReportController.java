@@ -20,9 +20,9 @@ public class ReportController {
     }
 
     @PostMapping("api/v1/reports")
-    public String createReport(@RequestBody Report report){
+    public @ResponseBody Report createReport(@RequestBody Report report){
         iReportService.saveReport(report);
-        return  "el reporte fue debidamente registrado";
+        return report;
     }
 
     @DeleteMapping("api/v1/reports/{id}")
